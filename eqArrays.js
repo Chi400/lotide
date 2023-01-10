@@ -8,12 +8,6 @@ const assertEqual = function(actual, expected) {
 };
 
 
-// const eqArrays = function(arr1, arr2) {
-//   for (i = 0, i < arr1.length, i++) {
-//     console.log(arr[i]);
-//   }
-  
-// }
 
 const eqArrays = (a, b) =>
   a.length === b.length &&
