@@ -20,4 +20,4 @@ const assertArraysEqual = function(arr1, arr2, expected) {
 };
 
 assertArraysEqual([1, 2, 3], [1, 2, 3], true);
-assertArraysEqual([1, 2, 3], [1, 4, 3], false)
+assertArraysEqual([1, 2, 3], [1, 4, 3], false);
